@@ -2,7 +2,7 @@
 
 ## Author: (Sergio)
 
-**Description:** Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Page Specific Metadata and Smarty data in the Content Manager Menu.
+**Description:** Multiple cross-site scripting (XSS) vulnerabilites in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Page Specific Metadata and Smarty data in the Content Manager Menu.
 
 **Attack Vectors:** Scripting A vulnerability in the sanitization of the entry in the "Content Manager Menu" allows injecting JavaScript code that will be executed when the user accesses the web page.
 
